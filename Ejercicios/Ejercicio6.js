@@ -17,12 +17,20 @@ Pista 2: Los operadores de comparación en JavaScript son >, <, >=, <=, ===, !==
 
 //Declaración y Asignación de Variables:
 //1. Declara dos variables y asígnales valores numéricos de tu elección.
-let variable1 = 55
-let variable2 = 15
+let variable1 = 5
+let variable2 = 94
+
 
 //Operadores de Comparación y Lógicos:
 // 2. Utiliza los operadores > (mayor que) y && (y lógico) para verificar si ambos números son mayores que 10.
 // 3. Utiliza console.log() para mostrar el resultado de la comparación.
-if (variable1 && variable2 > 10) {
+if (variable1 > 10 && variable2 > 10) {
     console.log("Ambos numeros son mayores a 10.")
+}else if (variable1 > 10 && variable2 < 10 ) {
+    console.log("LA VARIABLE 1 es mayores a 10.")
+} else if (variable1 < 10 && variable2 > 10) {
+    console.log("LA VARIABLE 2 es mayores a 10.")
+} else {
+    console.log("Las 2 variables  son menores a 10.")
 }
+    
